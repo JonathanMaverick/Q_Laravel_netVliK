@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.update-profile-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    min-height: 92vh;
+}
+
+.profile-form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.update-profile-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #52020d;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+.update-profile-container h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+
+.profile-form input{
+    height: 40px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.update-profile-container button{
+    padding: 10px;
+}
+
+.profile-form button{
+    background-color: black;
+    color: white;
+    border: none;
+    gap: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.profile-form button:hover{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    border: none;
+    cursor: pointer;
+}

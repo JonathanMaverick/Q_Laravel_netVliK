@@ -1,0 +1,31 @@
+.favorite-page{
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 20px;
+}
+
+#remove-button{
+    background-color: #b30000;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#remove-button:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #800101;
+}
+
+.remove-fav-button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#edit-button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.edit-film-page{
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    color: white;
+}
+
+.edit-film-content{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    background-color: #52020d;
+    padding: 20px;
+}
+
+.edit-film-content h1{
+    font-size: 60px;
+}
+
+.edit-form-container label{
+    font-size: 20px;
+}
+
+.edit-form-container input, .edit-form-container textarea{
+    font-family: Helvetica, sans-serif;
+    padding: 5px 5px;
+}
+
+.edit-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.edit-form-container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#edit-button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+}
